@@ -5,11 +5,10 @@ function preload(){
 }
 
 function setup() {
-  // createCanvas(windowWidth, windowHeight, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 }
 
 function draw() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
   background(0,255,54);
 
   //월드를 움직이도록 드래그
@@ -28,3 +27,8 @@ function draw() {
   }
 
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
