@@ -1,7 +1,7 @@
 let img;
 
 function preload(){
-  img = loadImage('bluewindow2-1.png');
+  img = loadImage('last copy.png');
 }
 
 function setup() {
