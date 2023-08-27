@@ -1,7 +1,7 @@
 let img;
 
 function preload(){
-  img = loadImage('window1-1.png');
+  img = loadImage('bluewindow2-1.png');
 }
 
 function setup() {
@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,255,54);
+  background("#00ACF5");
 
   //월드를 움직이도록 드래그
   orbitControl();
